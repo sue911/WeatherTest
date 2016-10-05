@@ -8,7 +8,8 @@ import android.database.sqlite.SQLiteOpenHelper;
  * Created by Administrator on 2016/9/9.
  */
 public class CoolWhetherOpenHelper extends SQLiteOpenHelper{
-    public static final String CREATE_PROVINCE = "create table Province("+
+    public static final String CREATE_PROVINCE
+            = "create table Province("+
             "id integer primary key autoincrement,"+
             "province_name text,"+
             "province_code text)";
